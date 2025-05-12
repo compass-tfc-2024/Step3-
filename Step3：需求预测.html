@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Step3：需求预测</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><p><em><strong>Step3：需求预测</strong></em></p>
+<p>确定客户服务之后，即可进行需求预测，需求预测以产品为单位进行每种产品未来半年需求量的预测，预测结果用于供应链整体规划。</p>
+<p>计算方法是首先根据销售的策略，如促销力度、客户市场容量等对每个客户的产品需求量进行单独预测。再计算每种产品的总需求量。</p>
+<p><img src="https://p.ananas.chaoxing.com/star3/origin/489e633b89d5c0e22b5a466ad0541b8b.png" alt=""></p>
+<ol>
+<li>客户产品需求预测</li>
+</ol>
+<p>在TFC中，影响未来需求的因素有两个，一是促销，二是客户市场容量。</p>
+<p>1）促销的影响</p>
+<p>促销对销售量的影响可在销售-客户成品报告-促销等优惠活动带来的额外销售中查看。</p>
+<p><img src="https://p.ananas.chaoxing.com/star3/origin/e71c90350ab014b95db2f9924fb219d0.png" alt=""></p>
+<p>(1）先计算无促销下的客户产品需求量，也就是基本需求量。</p>
+<p>以Super客户的Fressie橙汁一升装的需求预测为例。上轮中，Super的促销策略是轻度促销，那么super客户Fressie橙汁一升装无促销下的需求量则为：24853/（1+0.6%）=24703，同理可以计算其他客户产品的基本需求量。</p>
+<p>(2)计算各促销策略下客户产品需求量</p>
+<p>轻度促销、中度促销、重度促销下带来的额外销售量通常成3倍的关系。例如在轻度促销下，super客户Fressie橙汁一升装的额外销售量是0.6%，那么中度促销的额外销售量为0.6%*3，中度促销的额外销售量为0.6%<em>3</em>3。</p>
+<p>例如本轮，Super客户的促销策略为重度促销。那么本轮预测的销售量为24703*0.6%<em>3</em>3=26059</p>
+<p>同理可以计算其他客户产品的在不同促销下的需求量。</p>
+<p>2）客户市场容量的影响</p>
+<p>如果开发客户市场容量，需根据客户市场容量修正预测值。在上例中，假设在新一轮中客户的市场容量为1.08，那么Super客户的所有产品的需求量都将增加1.08倍。</p>
+<p>Super客户Fressie橙汁一升装最终预测值为：26059*1.08=28144。</p>
+<ol start="2">
+<li>产品预测</li>
+</ol>
+<p>这部分将不同客户相同产品的 需求预测值相加，即可得到每种产品的销售预测值。在EXCEL可采用SUMIF函数计算。</p>
+</div>
+</body>
+
+</html>
